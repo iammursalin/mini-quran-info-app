@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #191919; */
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px 0;
+    padding: 10px;
+    background-color: #1e1e1e;
+    box-shadow: 0px 0px 5px 1px #00000066;
+    border-radius: 3px;
+    width: 350px;
+}
+
+label {
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#selectChapter {
+    outline: none;
+    font-size: 17px;
+}
+
+.revelation-place-img {
+    height: 250px;
+}
+
+.revelation-place-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.arabic-name,
+.simple-name {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+.simple-name {
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 17px;
+}
+
+span.revelation-place {
+    text-transform: capitalize;
+}
+
+button {
+    background-color: #bb86fc;
+    margin: 5px 0;
+    border: 0;
+    outline: 0;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #f2ff42;
+}
